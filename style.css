@@ -6,10 +6,10 @@
   /* Element Selectors */
   body {
     position: relative;
-    font-family: sans-serif;
+    font-family: sans-serif, 'Lucida Sans'; 
     font-size: 20px;
-    background-color: rgb(251, 255, 0);
-    color: #4F4846;
+    background-color: rgb(0, 0, 0);
+    color: #1cb824;
   }
   
   h1,
@@ -29,12 +29,12 @@
   
   a {
     text-decoration: underline;
-    color: #c9520d;
+    color: #000000;
   }
   
   header,
   footer {
-    height: 60px;
+    height: 80px;
     width: 100%;
     line-height: 60px;
     background-color: #266150;
@@ -42,7 +42,7 @@
   
   header {
     position: fixed;
-    border-bottom: 10px solid #DDAF94;
+    border-bottom: 0px solid #000000;
   }
   
   footer {
@@ -65,8 +65,8 @@
   section {
     margin-bottom: 0;
     padding: 20px 10px 40px 10px;
-    border-top: 3px solid #DDAF94;
-    background-color:  #E8CEBF;
+    border-top: 3px solid #070504;
+    background-color:  #000000;
   }
   
   form {
@@ -87,7 +87,7 @@
   textarea {
     box-sizing: border-box;
     width: 300px;
-    border: 1px solid #4F4846;
+    border: 1px solid #b44728;
   }
   
   textarea {
